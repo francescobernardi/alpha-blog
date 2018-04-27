@@ -19,5 +19,13 @@ $navbar-default-bg: black;
   text-align: center;
 }
 
+footer {
+
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
