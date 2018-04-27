@@ -44,7 +44,10 @@ class ArticlesController < ApplicationController
     flash[:notice] = "Article was successfully deleted"
     redirect_to articles_path
   end
+desc "Task description"
+task :task_name => [:dependent, :tasks] do
 
+end
   private
 
     def set_article
